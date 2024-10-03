@@ -1,0 +1,221 @@
+.obrazek {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+}
+
+.obrazek img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbarek {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(46, 36, 29, 1);
+}
+
+
+
+.btn {
+    color: #AD8F78;
+}
+
+.white {
+    color: white;
+}
+
+body {
+    color: rgba(60, 47, 37, .65);
+    overflow-y: scroll;
+    background: #EAE3DE;
+    color: rgba(60, 47, 37, .65);
+}
+
+.luxurious-script-regular {
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+  }
+
+.text {
+    font-size: 20px;
+    text-align: center;
+}
+
+#featured-3 {
+    text-align: center;
+}
+
+.nadpis {
+    text-align: center;
+}
+
+.doleva
+{
+    text-align: left;
+}
+
+.doprava {
+    text-align: right;
+}
+.pls {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.test {
+    position: fixed;
+    bottom: -10px;
+    right: 200px;
+    z-index: 99;
+    font-size: 15px;
+    background-color: #785642;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-top: solid 2px #785642;
+}
+
+.btn-outline-dark {
+    color: #AD8F78!important;
+    border-color: #AD8F78!important;;
+}
+
+.btn-outline-dark:hover {
+    background-color: #AD8F78!important;
+    color: white!important;
+}
+
+.procpak {
+    background: linear-gradient(90deg, rgba(173, 143, 120, .5) 0%, rgba(173, 143, 120, 0) 100%);
+    display: flex;
+
+}
+
+.btn2 {
+    background-color: #AD8F78!important;
+    color: white!important;
+}
+
+.konec {
+    background-color: #604B3A;
+    color: white!important;
+}
+
+.zvyrazneni {
+    color: black;
+}
+
+.barva2 {
+    background-color: #785642;
+    height: 450px;
+    width: 500px;
+    z-index: -1;
+    top: -415px;
+    right: -50px;
+    position:relative;
+}
+
+.index {
+    z-index: 99;
+}
+
+.menu:hover, .menu, .menu:active {
+    color: white;
+}
+
+.card-header {
+    height: 300px;
+    position: relative;
+}
+
+.pls {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.zakulaceni {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.background {
+    background: linear-gradient(180deg,#AD8F78 0%,#EAE3DE 76.04%,#EAE3DE 100%)
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.black {
+    color: black!important;
+}
+
+.btn-background {
+    background: #CFBDB0;
+}
+
+.flower1 {
+    background-image: url(images/special-offer-flower.png);
+    background-repeat: no-repeat;
+}
+
+.flower2 {
+    background-image: url(images/flower.png);
+    background-repeat: no-repeat;
+}
+
+.flower3 {
+    background-image: url(images/flower-testimonial.png);
+    background-repeat: no-repeat;
+}
+
+.flower4 {
+    background-image: url(images/footer-flower.png);
+    background-repeat: no-repeat;
+}
+
+.do {
+    font-size: 18px;
+}
+
+.velikost-textu {
+    font-size: 50px;
+}
+
+.footer-bottom {
+    background: #604B3A;
+    border-top: 1px solid #927259;
+    line-height: 35px;
+    font-size: 14px;
+    color: rgba(216, 202, 191, .65);
+    padding: 7px 0;
+}
+
+.zarovnani {
+    display: flex;
+    align-items: centers;
+    justify-content: space-between;
+}
